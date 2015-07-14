@@ -19,7 +19,8 @@ define('APP_DEBUG',True);
 
 // 定义应用目录
 define('APP_PATH','./Application/');
-
+//生成绑定入口文件到指定文件
+//define('BIND_MODULE', 'Test');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
